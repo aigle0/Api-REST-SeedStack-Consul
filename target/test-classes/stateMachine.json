@@ -1,0 +1,24 @@
+{
+  "resources": {
+    "http://localhost:8080/machines": {
+      "href": "/machines",
+      "hints": {
+        "allow": ["GET"],
+        "formats": {
+          "application/json": {}
+        },
+        "accept-patch": ["application/json-patch"]
+      }
+    },
+    "http:localhost:8080/machines": {
+      "href-template": "/machines/checkstate",
+      "hints": {
+        "allow": ["POST"],
+        "formats": {
+          "application/json": {}
+        },
+        "accept-patch": ["application/json-patch"]
+      }
+    }
+  }
+}

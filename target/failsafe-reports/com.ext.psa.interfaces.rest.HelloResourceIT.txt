@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.ext.psa.interfaces.rest.HelloResourceIT
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.27 sec - in com.ext.psa.interfaces.rest.HelloResourceIT
